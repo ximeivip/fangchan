@@ -9,7 +9,7 @@ import './index.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ConfigProvider locale={zhCN}>
-      <BrowserRouter basename="/real-estate-crowdfunding">
+      <BrowserRouter basename="/fangchan">
         <App />
       </BrowserRouter>
     </ConfigProvider>
